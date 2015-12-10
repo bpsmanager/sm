@@ -27,7 +27,7 @@ public class googleCalcStepDefinition {
 	@Given("^I open google$")
 	public void I_open_google() {
 		//Set implicit wait of 10 seconds and launch google
-		// adding a comment to see if the build will kick off and update github
+		// adding comment to update file
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		driver.get("https://www.google.ca");
 	}

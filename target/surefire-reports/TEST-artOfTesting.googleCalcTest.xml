@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="2" time="0.978" errors="0" skipped="0" tests="16" name="artOfTesting.googleCalcTest">
+<testsuite failures="0" time="0.907" errors="0" skipped="0" tests="16" name="artOfTesting.googleCalcTest">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Google Calculator"/>
@@ -11,7 +11,7 @@
     <property name="POM_ARTIFACTID" value="cucumberJava"/>
     <property name="os.name" value="Windows 8.1"/>
     <property name="sun.boot.class.path" value="C:\Users\lkoczorowski\appdata\local\scoop\apps\openjdk\1.7.0-u80\jre\lib\resources.jar;C:\Users\lkoczorowski\appdata\local\scoop\apps\openjdk\1.7.0-u80\jre\lib\rt.jar;C:\Users\lkoczorowski\appdata\local\scoop\apps\openjdk\1.7.0-u80\jre\lib\sunrsasign.jar;C:\Users\lkoczorowski\appdata\local\scoop\apps\openjdk\1.7.0-u80\jre\lib\jsse.jar;C:\Users\lkoczorowski\appdata\local\scoop\apps\openjdk\1.7.0-u80\jre\lib\jce.jar;C:\Users\lkoczorowski\appdata\local\scoop\apps\openjdk\1.7.0-u80\jre\lib\charsets.jar;C:\Users\lkoczorowski\appdata\local\scoop\apps\openjdk\1.7.0-u80\jre\lib\jfr.jar;C:\Users\lkoczorowski\appdata\local\scoop\apps\openjdk\1.7.0-u80\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -19,6 +19,7 @@
     <property name="NODE_LABELS" value="master"/>
     <property name="TEMP" value="C:\Windows\TEMP"/>
     <property name="java.runtime.version" value="1.7.0-u80-unofficial-b32"/>
+    <property name="GIT_COMMITTER_EMAIL" value="blueprint.dummy.1@gmail.com"/>
     <property name="user.name" value="VM1106PC$"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="AppsRoot" value="D"/>
@@ -26,19 +27,21 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="BPADir" value="C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\Best Practices Analyzer\"/>
     <property name="user.language" value="en"/>
-    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="BUILD_DISPLAY_NAME" value="#21"/>
     <property name="sun.boot.library.path" value="C:\Users\lkoczorowski\appdata\local\scoop\apps\openjdk\1.7.0-u80\jre\bin"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="5b47c86a94cb7f79f7293127de3d7b66da4353a0"/>
     <property name="VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\"/>
     <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.7.0-u80-unofficial"/>
     <property name="PROCESSOR_LEVEL" value="6"/>
     <property name="user.timezone" value="America/New_York"/>
     <property name="USERNAME" value="VM1106PC$"/>
+    <property name="GIT_AUTHOR_NAME" value="bpsmanager"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Users\lkoczorowski\appdata\local\scoop\apps\openjdk\1.7.0-u80\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="3"/>
+    <property name="BUILD_ID" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -57,6 +60,7 @@
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="24.80-b11"/>
     <property name="user.variant" value=""/>
+    <property name="GIT_PREVIOUS_COMMIT" value="5b47c86a94cb7f79f7293127de3d7b66da4353a0"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="FP_NO_HOST_CHECK" value="NO"/>
@@ -67,14 +71,15 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="POM_PACKAGING" value="jar"/>
     <property name="CodeContractsInstallDir" value="C:\Program Files (x86)\Microsoft\Contracts\"/>
-    <property name="SERVICE_ID" value="jenkins"/>
-    <property name="COMPUTERNAME" value="VM1106PC"/>
     <property name="user.script" value=""/>
-    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="COMPUTERNAME" value="VM1106PC"/>
+    <property name="SERVICE_ID" value="jenkins"/>
     <property name="POM_GROUPID" value="CucumberJavaProject"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
     <property name="user.home" value="C:\"/>
+    <property name="GIT_COMMITTER_NAME" value="bpsmanager"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Google Calculator-3"/>
+    <property name="BUILD_TAG" value="jenkins-Google Calculator-21"/>
     <property name="JENKINS_SERVER_COOKIE" value="8ce50acffc4144d1"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -88,7 +93,7 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="maven.home" value="C:\Users\lkoczorowski\AppData\Local\scoop\apps\maven\3.3.3"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-agent-1.7.jar;C:\Users\lkoczorowski\AppData\Local\scoop\apps\maven\3.3.3\boot\plexus-classworlds-2.5.2.jar;C:\Users\lkoczorowski\AppData\Local\scoop\apps\maven\3.3.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\Users\lkoczorowski\AppData\Local\scoop\apps\maven\3.3.3 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.53.2.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar 10678"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\Users\lkoczorowski\AppData\Local\scoop\apps\maven\3.3.3 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.53.2.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar 18529"/>
     <property name="Path" value="C:\Users\lkoczorowski\appdata\local\scoop\apps\openjdk\1.7.0-u80\/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Windows\CCM;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\Best Practices Analyzer\;"/>
     <property name="VS120COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -104,7 +109,7 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Users\lkoczorowski\AppData\Local\scoop\apps\maven\3.3.3/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Google%20Calculator/3/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Google%20Calculator/21/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="TFSPowerToolDir" value="C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -118,50 +123,40 @@
 "/>
     <property name="MAVEN_HOME" value="C:\Users\lkoczorowski\AppData\Local\scoop\apps\maven\3.3.3"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="3"/>
+    <property name="BUILD_NUMBER" value="21"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="4601"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
     <property name="UATDATA" value="C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\Windows"/>
+    <property name="GIT_COMMIT" value="5b47c86a94cb7f79f7293127de3d7b66da4353a0"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar"/>
     <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\Google Calculator"/>
     <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar"/>
+    <property name="GIT_AUTHOR_EMAIL" value="blueprint.dummy.1@gmail.com"/>
     <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
     <property name="java.specification.version" value="1.7"/>
     <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;c:\Program Files\Microsoft Security Client\MpProvider\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\"/>
+    <property name="GIT_URL" value="https://github.com/bpsmanager/sm/"/>
   </properties>
   <testcase time="0.002" classname="Scenario: Addition" name="Given I open google"/>
-  <testcase time="0" classname="Scenario: Addition" name="When I enter &quot;121+24&quot; in search textbox"/>
-  <testcase time="0.003" classname="Scenario: Addition" name="Then I should get result as &quot;146&quot;">
-    <failure message="expected:&lt;14[5]&gt; but was:&lt;14[6]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;14[5]&gt; but was:&lt;14[6]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at artOfTesting.test.googleCalcStepDefinition.I_should_get_correct_result(googleCalcStepDefinition.java:53)
-	at ✽.Then I should get result as &quot;146&quot;(artOfTesting/test/Addition.feature:9)
-</failure>
-  </testcase>
-  <testcase time="0.004" classname="Scenario: Addition" name="Scenario: Addition">
-    <failure message="expected:&lt;14[5]&gt; but was:&lt;14[6]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;14[5]&gt; but was:&lt;14[6]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at artOfTesting.test.googleCalcStepDefinition.I_should_get_correct_result(googleCalcStepDefinition.java:53)
-	at ✽.Then I should get result as &quot;146&quot;(artOfTesting/test/Addition.feature:9)
-</failure>
-  </testcase>
+  <testcase time="0" classname="Scenario: Addition" name="When I enter &quot;121+28&quot; in search textbox"/>
+  <testcase time="0" classname="Scenario: Addition" name="Then I should get result as &quot;149&quot;"/>
+  <testcase time="0.202" classname="Scenario: Addition" name="Scenario: Addition"/>
   <testcase time="0" classname="Scenario: Division" name="Given I open google"/>
   <testcase time="0" classname="Scenario: Division" name="When I enter &quot;34/17&quot; in search textbox"/>
   <testcase time="0" classname="Scenario: Division" name="Then I should get result as &quot;2&quot;"/>
-  <testcase time="0.338" classname="Scenario: Division" name="Scenario: Division"/>
+  <testcase time="0.239" classname="Scenario: Division" name="Scenario: Division"/>
   <testcase time="0" classname="Scenario: Multiplication" name="Given I open google"/>
   <testcase time="0" classname="Scenario: Multiplication" name="When I enter &quot;12*4&quot; in search textbox"/>
   <testcase time="0" classname="Scenario: Multiplication" name="Then I should get result as &quot;48&quot;"/>
-  <testcase time="0.232" classname="Scenario: Multiplication" name="Scenario: Multiplication"/>
+  <testcase time="0.201" classname="Scenario: Multiplication" name="Scenario: Multiplication"/>
   <testcase time="0" classname="Scenario: Subtraction" name="Given I open google"/>
   <testcase time="0" classname="Scenario: Subtraction" name="When I enter &quot;20.5-2&quot; in search textbox"/>
   <testcase time="0" classname="Scenario: Subtraction" name="Then I should get result as &quot;18.5&quot;"/>
-  <testcase time="0.399" classname="Scenario: Subtraction" name="Scenario: Subtraction"/>
+  <testcase time="0.263" classname="Scenario: Subtraction" name="Scenario: Subtraction"/>
 </testsuite>
