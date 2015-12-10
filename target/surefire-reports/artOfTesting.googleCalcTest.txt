@@ -1,4 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: artOfTesting.googleCalcTest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 57.297 sec
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 47.776 sec <<< FAILURE!
+Then I should get result as "146"(Scenario: Addition)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<14[5]> but was:<14[6]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at artOfTesting.test.googleCalcStepDefinition.I_should_get_correct_result(googleCalcStepDefinition.java:53)
+	at ?.Then I should get result as "146"(artOfTesting/test/Addition.feature:9)
+
+Scenario: Addition  Time elapsed: 0.004 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<14[5]> but was:<14[6]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at artOfTesting.test.googleCalcStepDefinition.I_should_get_correct_result(googleCalcStepDefinition.java:53)
+	at ?.Then I should get result as "146"(artOfTesting/test/Addition.feature:9)
+
