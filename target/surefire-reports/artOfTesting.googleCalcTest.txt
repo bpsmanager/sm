@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: artOfTesting.googleCalcTest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.275 sec
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.036 sec
