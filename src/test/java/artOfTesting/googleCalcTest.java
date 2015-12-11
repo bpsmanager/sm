@@ -10,4 +10,4 @@ public class googleCalcTest {
 // adding more stuff 
 // added commit and add to post steps.this might be it. 
 // check if this commit updates both featuretest and master
-
+// corrected the syntax on commit and add in post bild
