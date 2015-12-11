@@ -9,4 +9,5 @@ public class googleCalcTest {
 // making a change for fs trigger
 // adding more stuff 
 // added commit and add to post steps.this might be it. 
+// check if this commit updates both featuretest and master
 
