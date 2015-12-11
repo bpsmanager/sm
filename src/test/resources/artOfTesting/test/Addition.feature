@@ -5,5 +5,5 @@ Story: As a user, I want Google search box to act as a basic calculator
 
    Scenario: Addition
    Given I open google
-   When I enter "121+27" in search textbox
-   Then I should get result as "148"
+   When I enter "121+26" in search textbox
+   Then I should get result as "147"
